@@ -1,0 +1,289 @@
+body {
+  background-color: rgb(13,13,13);
+  font-family: 'Poiret One', cursive;
+  background-image: url(../images/02.jpg);
+  background-size: cover;
+}
+
+section {
+  width: 100%;
+/* margin: 0;
+  max-width: none; */
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  font-size: 80px;
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-style: double;
+  line-height: 1.5;
+  color: #e6e6e6;
+}
+
+h1 a {
+  color: #e6e6e6;
+}
+
+h1 a:hover{
+  color: #e6e6e6;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  font-size: 30px;
+  color: #e6e6e6;
+}
+
+p {
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  font-size: 20px;
+  color: #e6e6e6;
+  padding: 0px 55px;
+  line-height: 1.4;
+}
+
+.text { /* styles content to stand out against background*/
+  background-color: rgb(13,13,13);
+  padding: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+#header {
+  margin: 0;
+  padding: 2%;
+  margin-bottom: 7%;
+  height: 300px;
+  width: 100%;
+}
+
+/*Social buttons*/
+.fa {
+  padding: 20px;
+  margin-right: 30px;
+  margin-bottom: 2%;
+  font-size: 30px;
+  /*width: 50px;*/
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+/*Home*/
+.fa-home {
+  color: white;
+}
+/*Facebook*/
+.fa-facebook {
+  color: white;
+}
+/*Twitter*/
+.fa-twitter {
+  color: white;
+}
+/*Instagram*/
+.fa-instagram {
+  color: white;
+}
+
+.col-md-12 {
+  text-align: center;
+}
+
+.footer {
+  position: absolute;
+  padding-top:250px;
+  text-align: center;
+  width: 100%;
+  margin-bottom:10px;
+}
+
+
+.contact {
+  position: fixed;
+  bottom: 5%;
+  width: 50%;
+  font-family: 'Poiret One', cursive;
+  font-size: 18px;
+  color: #e6e6e6;
+  margin-bottom: 10px;
+}
+
+input {
+  box-sizing border-box;
+  padding: 10px 20px;
+}
+
+.container-check {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+iframe {
+  padding-bottom: 20px;
+}
+
+
+a:link {
+  color: #ffffb3;
+}
+a:visited {
+  color: #e6e6e6;
+}
+a:hover {
+  color: #ffbf80;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.column {
+  flex: 50%;
+  max-width: 50%;
+  align-items: center;
+  align-content: center;
+}
+
+.nav li {
+  margin-bottom: 0;
+  padding: 0;
+  display: inline;
+}
+
+.charities-list {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  text-align: justify;
+  font-size: 20px;
+  color: #e6e6e6;
+  padding: 0px 60px;
+}
+
+#menu {
+  width: 667px;
+  height: auto;
+  margin: 0px;
+  margin-bottom: -2px;
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+
+#menu:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}
+
+.container {
+  position: relative;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  font-weight: bold;
+  color: #e6e6e6;
+  text-shadow: 3px 2px black;
+}
+
+.center a { text-decoration: none;}
+
+.center a:hover {color: #e6e6e6;}
+
+
+/*Brands grid gallery styling*/
+* {
+    box-sizing: border-box;
+}
+
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+.row2 {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column2 {
+-ms-flex: 25%; /* IE10 */
+flex: 25%;
+max-width: 25%;
+padding: 0 4px;
+}
+
+.column2 img {
+margin-top: 8px;
+vertical-align: middle;
+}
+
+/*media tag for the brands gllery*/
+@media (max-width: 800px) {
+  .column2 {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .column2 {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* media tag for other content */
+@media (max-width: 600px){
+  h1 {
+    font-size: 35px;
+    margin-top: 15%;
+    text-align: center;
+  }
+  h2 {
+    font-size: 25px;
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+  }
+  p {
+    font-size: 18px;
+    line-height: normal;
+    padding: 0px 35px;
+  }
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .fa {
+    font-size:20px;
+    padding:10px;
+  }
